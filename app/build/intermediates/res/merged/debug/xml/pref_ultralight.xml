@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="读写设置">
+        <ListPreference
+            android:defaultValue="Idle"
+            android:entries="@array/all_idle_list"
+            android:entryValues="@array/all_idle_list"
+            android:key="utl_set_ai"
+            android:summary="选择All/Idle"
+            android:title="All/Idle" />
+        <Preference
+            android:key="ult_read_card"
+            android:summary="读取卡号"
+            android:title="读取卡号" />
+        <Preference
+            android:key="utl_halt"
+            android:title="Halt"
+            android:summary="Halt读取" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="读写卡">
+        <EditTextPreference
+            android:key="ult_sec"
+            android:title="输入扇区"
+            android:summary="输入要读/写的扇区"
+            android:defaultValue="04" />
+        <EditTextPreference
+            android:key="ult_data"
+            android:title="写卡的数据"
+            android:summary="输入要写入卡中的数据"
+            android:defaultValue="00 00 00 00" />
+        <Preference
+            android:key="ult_read"
+            android:title="读卡"
+            android:summary="读取扇区数据" />
+        <Preference
+            android:key="ult_write"
+            android:title="写卡"
+            android:summary="写入扇区数据" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

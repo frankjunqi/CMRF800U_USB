@@ -1,0 +1,7 @@
+#Mon Nov 14 17:09:34 CST 2016
+base.0=D\:\\AS_Project\\CMRF800U_USB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ce1df4c92d78232f58a8599f877a97b638256c97
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\AS_Project\\CMRF800U_USB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e5cce0b272a25af6c9bedbaceb6a14e8a607353c\\classes.dex
+base.1=D\:\\AS_Project\\CMRF800U_USB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e5cce0b272a25af6c9bedbaceb6a14e8a607353c
+file.0=D\:\\AS_Project\\CMRF800U_USB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ce1df4c92d78232f58a8599f877a97b638256c97\\classes.dex

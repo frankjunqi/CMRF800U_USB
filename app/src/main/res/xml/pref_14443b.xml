@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="读写卡">
+        <Preference
+                android:key="14443b_req"
+                android:title="卡请求"
+                android:summary="请求卡的数据" />
+        <EditTextPreference
+                android:key="14443b_data_len"
+                android:title="输入命令长度"
+                android:summary="输入发送数据的指令的长度"
+                android:defaultValue="08" />
+        <EditTextPreference
+                android:key="14443b_data"
+                android:title="输入命令"
+                android:summary="输入发送数据的指令"
+                android:defaultValue="00 00 05 00 84 00 00 08" />
+        <Preference
+                android:key="14443b_send"
+                android:title="发送命令"
+                android:summary="给卡发送命令" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="读写设置" >
+        <ListPreference
+            android:defaultValue="Idle"
+            android:entries="@array/all_idle_list"
+            android:entryValues="@array/all_idle_list"
+            android:key="mf_set_ai"
+            android:summary="选择All/Idle"
+            android:title="All/Idle" />
+        <ListPreference
+            android:defaultValue="Key A"
+            android:entries="@array/keya_keyb_list"
+            android:entryValues="@array/keya_keyb_list"
+            android:key="mf_set_key"
+            android:summary="选择Key的类型"
+            android:title="Key" />
+
+        <EditTextPreference
+            android:defaultValue="FF FF FF FF FF FF"
+            android:dialogMessage="请输入密码"
+            android:key="mf_set_pas"
+            android:summary="设置密码"
+            android:title="密码" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="读写卡" >
+        <EditTextPreference
+            android:defaultValue="10"
+            android:key="mf_add"
+            android:summary="输入用于读/写卡的起始地址"
+            android:title="起始地址" />
+        <EditTextPreference
+            android:defaultValue="01"
+            android:key="mf_num"
+            android:summary="输入用于读/写卡的块数量"
+            android:title="块的数量" />
+        <EditTextPreference
+            android:defaultValue="FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF"
+            android:key="mf_data"
+            android:summary="输入用于写入卡中的数据"
+            android:title="写卡的数据" />
+        <Preference
+            android:key="mf_read_card"
+            android:summary="读取卡号与数据"
+            android:title="读卡" />
+        <Preference
+            android:key="mf_write_card"
+            android:summary="写入数据"
+            android:title="写卡" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="初值化" >
+        <EditTextPreference
+            android:defaultValue="01"
+            android:key="mf_init_block"
+            android:summary="输入用于初始化卡/减值/加值的扇区"
+            android:title="扇区" />
+        <EditTextPreference
+            android:defaultValue="00 88 00 00"
+            android:key="mf_init_data"
+            android:summary="输入用于初始化卡/减值/加值的数据"
+            android:title="初始化值" />
+        <Preference
+            android:key="mf_init"
+            android:summary="设置初始值"
+            android:title="初值化" />
+        <Preference
+            android:key="mf_inc"
+            android:summary="初始值加值"
+            android:title="加值" />
+        <Preference
+            android:key="mf_dec"
+            android:summary="初始值减值"
+            android:title="减值" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="读卡号" >
+        <Preference
+            android:key="mf_read_num"
+            android:summary="读取IC卡的卡号"
+            android:title="读卡号" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

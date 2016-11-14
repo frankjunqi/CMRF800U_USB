@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\AS_Project\\CMRF800U_USB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_item_list.xml",
+        "source": "D:\\AS_Project\\CMRF800U_USB\\app\\src\\main\\res\\layout\\activity_item_list.xml"
+    },
+    {
+        "merged": "D:\\AS_Project\\CMRF800U_USB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iso15693_set.xml",
+        "source": "D:\\AS_Project\\CMRF800U_USB\\app\\src\\main\\res\\layout\\iso15693_set.xml"
+    },
+    {
+        "merged": "D:\\AS_Project\\CMRF800U_USB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_item_detail.xml",
+        "source": "D:\\AS_Project\\CMRF800U_USB\\app\\src\\main\\res\\layout\\fragment_item_detail.xml"
+    },
+    {
+        "merged": "D:\\AS_Project\\CMRF800U_USB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_item_twopane.xml",
+        "source": "D:\\AS_Project\\CMRF800U_USB\\app\\src\\main\\res\\layout\\activity_item_twopane.xml"
+    },
+    {
+        "merged": "D:\\AS_Project\\CMRF800U_USB\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_item_detail.xml",
+        "source": "D:\\AS_Project\\CMRF800U_USB\\app\\src\\main\\res\\layout\\activity_item_detail.xml"
+    }
+]

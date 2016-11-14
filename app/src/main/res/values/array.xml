@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="all_idle_list">
+        <item>All</item>
+        <item>Idle</item>
+    </string-array>
+    <string-array name="keya_keyb_list">
+        <item>Key A</item>
+        <item>Key B</item>
+    </string-array>
+    <string-array name="halt_nohalt_list">
+        <item>no halt</item>
+        <item>halt</item>
+    </string-array>
+</resources>
